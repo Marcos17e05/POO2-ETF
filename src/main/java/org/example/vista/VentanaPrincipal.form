@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.vista.VentanaPrincipal">
+  <grid id="rootPrincipal" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="10" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="9">
+    <margin top="22" left="50" bottom="22" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="620" height="560"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="titulo" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="22" style="1"/>
+          <text value="Sistema de Gestión de Biblioteca Escolar"/>
+        </properties>
+      </component>
+      <component id="bienvenida" class="javax.swing.JLabel" binding="lblBienvenida">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Bienvenido/a"/>
+        </properties>
+      </component>
+      <component id="rol" class="javax.swing.JLabel" binding="lblRol">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rol"/>
+        </properties>
+      </component>
+      <component id="libros" class="javax.swing.JButton" binding="btnLibros">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="420" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Gestión de libros"/>
+        </properties>
+      </component>
+      <component id="categorias" class="javax.swing.JButton" binding="btnCategorias">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="420" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Gestión de categorías"/>
+        </properties>
+      </component>
+      <component id="estudiantes" class="javax.swing.JButton" binding="btnEstudiantes">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="420" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Gestión de estudiantes"/>
+        </properties>
+      </component>
+      <component id="prestamos" class="javax.swing.JButton" binding="btnPrestamos">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="420" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Préstamos y devoluciones"/>
+        </properties>
+      </component>
+      <component id="reportes" class="javax.swing.JButton" binding="btnReportes">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="420" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Reportes"/>
+        </properties>
+      </component>
+      <component id="usuarios" class="javax.swing.JButton" binding="btnUsuarios">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="420" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Gestión de bibliotecarios"/>
+        </properties>
+      </component>
+      <component id="cerrar" class="javax.swing.JButton" binding="btnCerrarSesion">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cerrar sesión"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
